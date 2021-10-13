@@ -1,9 +1,13 @@
 body{
     font-size:18px;
     font-family: Verdana,sans-serif;
+    background-image: linear-gradient(#dfdfdf,#a5a5a5);
+}
+header,footer{
+    background-color: coral;
 }
 .site-title{
-    color: rgb(247, 142, 101)
+    color: #6b003b;
 }
 #my-image{
     box-shadow: 0px 0px 2px 1px black;
@@ -12,5 +16,19 @@ ul{
     list-style-type: square;
 }
 li:nth-child(odd){
-    background-color: coral;
+    background-color: coral; 
+}
+/* When trying to create a border of any given colour, it would not appear unless I added the syntax "solid" before said colour */
+a:link{
+    text-decoration: none;
+    background-color: rgb(22, 22, 22); 
+    border: 2px solid #ff7f50;
+    padding: 5px 5px;
+    }
+a:visited{
+    color: #800046;
+}
+
+a:hover{
+    color: coral;
 }
