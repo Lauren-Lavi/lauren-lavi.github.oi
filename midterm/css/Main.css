@@ -1,7 +1,15 @@
+/* Main Code start */
+
+
+/* defaults for text and bbackground details */
 body{
     background-color: #aad4cf;
     font-family: Calibri,Sans Serrif;
 }
 #main{
     background-color: #d4e9e7;
+    position: relative;
+}
+header{
+    text-align: center;
 }
