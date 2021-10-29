@@ -9,6 +9,11 @@ body{
 #main{
     background-color: #d4e9e7;
 }
+
+/* Alaigning header and specific adjustments */
+#starfish{
+    color: ghostwhite;
+}
 header{
     text-align: center;
 }
