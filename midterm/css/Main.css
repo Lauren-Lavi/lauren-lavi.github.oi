@@ -8,8 +8,7 @@ body{
 }
 #main{
     background-color: #d4e9e7;
-    position: relative;
 }
 header{
-   position: center;
+    text-align: center;
 }
