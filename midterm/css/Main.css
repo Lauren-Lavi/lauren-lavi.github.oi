@@ -17,3 +17,8 @@ body{
 header{
     text-align: center;
 }
+
+/* Contact specific Css */
+#contact-info{
+    border-style: solid;
+}
