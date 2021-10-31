@@ -2,7 +2,7 @@
 
 
 /* defaults for text and bbackground details */
-body{
+html{
     background-color: #aad4cf;
     font-family: Calibri,Sans Serrif;
 }
