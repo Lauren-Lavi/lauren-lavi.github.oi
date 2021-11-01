@@ -1,7 +1,7 @@
 /* Main Code start */
 
 
-/* defaults for text and background details */
+/*-------- Defaults for text and background details-------------------- */
 html{
     background-color: #aad4cf;
     font-family: Calibri,Sans Serrif;
@@ -16,10 +16,7 @@ h3{
 #main{
     background-color: #d4e9e7;
     }
-#header-image{
-    background-image: inherit;
-}
-    /* Wrapping text around startfish image */
+    /* ---------------- Wrapping text around startfish image --------------------*/
 #container{
      float: left;  
 
@@ -29,19 +26,20 @@ h3{
     margin-right: 15px;
 }
 
-/* Aligning header and specific adjustments */
+/* ---------------------- Aligning header and specific adjustments ----------------*/
 #starfish{
     color: ghostwhite;
     ;
 }
 header{
     text-align: center;
+    line-height: 10rem;
     background-image: url("../images/lone-starfish-wide.jpg");
     height: 400px;
     background-repeat: no-repeat;
 }
 
-/* Contact specific Css */
+/* ---------------- Contact specific Css --------------------------*/
 #contact-info{
     border-style: solid;
 }
