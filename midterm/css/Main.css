@@ -19,7 +19,7 @@ h3{
 #header-image{
     background-image: inherit;
 }
-    /* Wrapping text around image */
+    /* Wrapping text around startfish image */
 #container{
      float: left;  
 
@@ -32,9 +32,11 @@ h3{
 /* Aligning header and specific adjustments */
 #starfish{
     color: ghostwhite;
+    ;
 }
 header{
     text-align: center;
+    background: url('/images/lone-starfish-wide.jpg');
 }
 
 /* Contact specific Css */
