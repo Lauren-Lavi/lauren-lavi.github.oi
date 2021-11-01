@@ -10,8 +10,16 @@ html{
 #main{
     background-color: #d4e9e7;
     }
+    /* Wrapping text around image */
+#container{
+     float: inline-start;
+     width: 380px;   
+}
+#contained{
+    display: block;
+}
 
-/* Alaigning header and specific adjustments */
+/* Aligning header and specific adjustments */
 #starfish{
     color: ghostwhite;
 }
