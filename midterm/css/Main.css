@@ -36,7 +36,9 @@ h3{
 }
 header{
     text-align: center;
-    background: url('/images/lone-starfish-wide.jpg');
+    background-image: url("../images/lone-starfish-wide.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
 }
 
 /* Contact specific Css */
