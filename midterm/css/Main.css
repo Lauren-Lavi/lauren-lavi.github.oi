@@ -1,22 +1,32 @@
 /* Main Code start */
 
 
-/* defaults for text and bbackground details */
+/* defaults for text and background details */
 html{
     background-color: #aad4cf;
     font-family: Calibri,Sans Serrif;
     margin: auto 20%;
+        }
+h3{
+  float: left;
+  text-align:center;
+  margin: 10px 2px 2px;
+  padding: 20px;
 }
 #main{
     background-color: #d4e9e7;
     }
+#header-image{
+    background-image: inherit;
+}
     /* Wrapping text around image */
 #container{
-     float: inline-start;
-     width: 380px;   
+     float: left;  
+
 }
 #contained{
     display: block;
+    margin-right: 15px;
 }
 
 /* Aligning header and specific adjustments */
