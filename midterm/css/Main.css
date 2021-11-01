@@ -5,9 +5,11 @@
 html{
     background-color: #aad4cf;
     font-family: Calibri,Sans Serrif;
+    margin: auto 20%;
 }
 #main{
     background-color: #d4e9e7;
+    
 }
 
 /* Alaigning header and specific adjustments */
