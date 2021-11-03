@@ -55,7 +55,8 @@ table {
 html{
     background-color: #aad4cf;
     font-family: Calibri,Sans Serrif;
-    margin: auto 20%;
+    max-width: 1200px;
+    margin: 0% auto;
     font-size: 18px;
     }
 h1{
@@ -67,14 +68,15 @@ h1{
 h2{
     font-size: 1.3em;
     clear: left;
+    
 }
     /* ---------Navigation set up-------------- */
 nav{
     font-size: 25px;
     text-align:center;
-    margin: 10px 2px 2px;
-    padding: 20px;
-    position: relative;
+    margin: 0% auto;
+    padding: 10px;
+    max-width: 1200px;
 }
 h3{
     margin: 5px;
@@ -83,10 +85,9 @@ h3{
 }
 .select{
     float: left;
-    padding:0 11.5%;
+    padding: 10px;
+    max-width: 1200px;
     margin: 0% auto;
-    border-left: 5px, solid, black;
-    clear: inline-end;
 }
     /* ---------------- Wrapping text around startfish image --------------------*/
 #container{
@@ -109,7 +110,7 @@ header{
     height: 250px;
     background: url("../images/lone-starfish-wide.jpg");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 1200px;
     background-position: cover;   
 }
 /* ---------------- Contact specific Css --------------------------*/
