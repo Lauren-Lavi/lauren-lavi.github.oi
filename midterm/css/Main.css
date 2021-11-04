@@ -48,7 +48,8 @@ table {
 	border-spacing: 0;
 }
 
-/*-------------------------------------- Main Code start ----------------------------------------*/
+/*-----------------------------------------------------------------------------------------------
+-----------------------------------------Main Code start ----------------------------------------*/
 
 
 /*-------- Defaults for text and background details-------------------- */
@@ -56,28 +57,43 @@ html{
     background-color: #aad4cf;
     font-family: Calibri,Sans Serrif;
     width: 1024px;
-    margin: 0% auto;
+    margin: 0 auto;
     font-size: 18px;
     }
+/* Header title */
 h1{
-    font-size: 2em;
+    font-size: 3em;
+    margin-top: 15%;
 }
 #main{
     background-color: #d4e9e7;
-    height: 1000px;
+    height: 95%;
 }
 h2{
-    font-size: 1.3em;
+    font-size: 2em;
     clear: left;
-    
+    margin: 5% 2px 2px auto;
 }
-    /* ---------Navigation set up-------------- */
+/* Main sub menus */
+h3{
+    font-size: 1.5em;
+    margin: 5% 8px auto;
+    clear: left;
+}
+/* Starfish contact sub menu */
+
+h4{
+    font-size: 1.2rem;
+    margin: 3px 0px 3px 0px;
+}
+/* ---------Navigation set up-------------- */
 nav{
     font-size: 25px;
     text-align:center;
     margin: 0% auto;
-    padding: 10px;
+    padding: 2px;
     width: 1024px;
+    text-transform: uppercase;
 }
 a{
     margin: 5px;
@@ -116,7 +132,7 @@ header{
     background: url("../images/lone-starfish-wide.jpg");
     background-repeat: no-repeat;
     background-size: 1200px;
-    background-position: cover;   
+    background-position: center;   
 }
 /* ---------------- Contact specific Css --------------------------*/
 ul{
@@ -125,8 +141,9 @@ ul{
 }
 #contact-info{
     border-style: solid;
-    padding: 8px;
+    padding: 5px 10px;
     border-width: thin;
+    line-height: 1.5rem;
 }
 #lined{
     border: solid;
@@ -144,4 +161,10 @@ ul{
 
     display:block;
     width: 98%;
+}
+#lined{
+    display: block;
+}
+footer{
+margin: 6px 0px auto;
 }
