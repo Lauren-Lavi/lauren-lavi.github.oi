@@ -88,6 +88,25 @@ h4{
     font-size: 1.2rem;
     margin: 3px 0px 3px 0px;
 }
+/* ---------------------- Aligning header and specific adjustments ----------------*/
+header #starfish{
+    position:absolute;
+    color: ghostwhite;
+    width: 1024px;
+    text-align: center;
+    margin-top: 200px;    
+}
+header img{
+  width: fit-content;
+}
+/* List info */
+ul{
+    list-style: disc;
+    margin-left: 20px;
+}
+.length{
+    line-height:15px;
+}
 /* ---------Navigation set up-------------- */
 nav{
     font-size: 25px;
@@ -123,25 +142,7 @@ a:visited{
     margin-right: 15px;
 }
 
-/* ---------------------- Aligning header and specific adjustments ----------------*/
-header #starfish{
-    position:absolute;
-    color: ghostwhite;
-    width: 1024px;
-    text-align: center;
-    margin-top: 200px;    
-}
-header img{
-  width: fit-content;
-}
-/* List info */
-ul{
-    list-style: disc;
-    margin-left: 20px;
-}
-.length{
-    line-height:15px;
-}
+
 /* ---------------- Contact specific Css --------------------------*/
 #contact-info{
     border-style: solid;
