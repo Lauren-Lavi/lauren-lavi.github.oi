@@ -64,7 +64,6 @@ html{
 /* Header title */
 h1{
     font-size: 3em;
-    margin-top: 15%;
 }
 #main{
     display: inline-block;
@@ -125,17 +124,15 @@ a:visited{
 }
 
 /* ---------------------- Aligning header and specific adjustments ----------------*/
-#starfish{
+header #starfish{
+    position:absolute;
     color: ghostwhite;
-}
-header{
+    width: 1024px;
     text-align: center;
-    padding: 25px;
-    height: 250px;
-    background: url("../images/lone-starfish-wide.jpg");
-    background-repeat: no-repeat;
-    background-size: 1200px;
-    background-position: center;   
+    margin-top: 200px;    
+}
+header img{
+  width: fit-content;
 }
 /* List info */
 ul{
