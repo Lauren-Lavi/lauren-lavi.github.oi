@@ -50,7 +50,7 @@ table {
 /*```````````````````````````````````` CODE START HERE ```````````````````````````````````````````
 ``````````````````````````````````````````````````````````````````````````````````````````````````*/
 
-@media screen and (max-width: 480px){
+
     body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     }
@@ -81,4 +81,45 @@ table {
         text-decoration: none;
         text-align: center;
     }
+    #find{
+                background-color: #222222;
+        color:goldenrod;
+        border: solid 2px goldenrod;
+    }
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Below the nav (three star media background code)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+    h1{
+        font-size: 3rem;
+        padding: 8px;
+    }
+    #threestars{
+      color:whitesmoke;
+      background-color: #1d1c1c69;  
+      padding: 10%;
+    }
+    #threestars #connect{
+                color: #222222;
+        font-size:1rem;
+        background-color: goldenrod;
+        padding: 10px;
+        margin: 8px;
+        border: none;
+    }
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~MEDIA QUERY FOR FULL SCREEN~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media screen and (min-width: 480px){
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    background-color: #222222;
+    padding: 10px;
+}
+ul{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li{
+    margin:5px;
+ }
 }
