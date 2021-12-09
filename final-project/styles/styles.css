@@ -122,16 +122,18 @@ table {
     margin:5px;
 }
 /* ```````````~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Plans styling section~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* background and general font styling */
 .about{
     background-color: #FFE6AC;
     border: 5px;
     margin: 5px;
     padding: 5px;
 }
+/* paragraph specifics */
 .about p{
     margin: 5px;
 }
-
+/* button styling */
 .about button{
     font-size: 1em;
     background-color: #222222;
