@@ -27,6 +27,7 @@
           </ul>
          <!-- Search bar for the header, may adjust as needed -->
           <form action="index.html" method="post">
+            <label for="search"></label>
               <input id="search" type="text" name="fullname" placeholder="Search">
               <button id="find" type="submit"><i class="icon icon-zoom"></i></button>
           </form>
@@ -81,32 +82,37 @@
             <button id="pplans" type="submit">Print Plans<i class="icon icon-right"></i></button>
           </div>
         </article>
-        <div>
+        <div id="vision">
           <!-- Our Vision splits of and seems to convey a separate thought away from the unity of the section. Custom styling -->
+          <img src="images/vision.jpg" alt="vision">
           <h3>Our Vision</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fringilla porta tristique. Donec non lacus luctus, consequat turpis ac, venenatis massa. Phasellus a dolor sed nisi dapibus iaculis. In sit amet dui a felis semper suscipit. Cras vulputate ac orci ut sagittis. Nullam eu viverra lectus, non efficitur purus. Morbi vitae velit ac libero sagittis tincidunt. Nulla pretium dui nec lorem rutrum, ut mattis purus dapibus. Maecenas viverra erat lorem, quis ornare augue tempor eget. Fusce neque risus, interdum ac dui et, suscipit maximus urna. Ut porta eu tortor sed fermentum. Sed condimentum lorem sodales convallis gravida. Maecenas sit amet purus eget est tincidunt accumsan. Donec sed euismod neque. </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fringilla porta tristique. Donec non lacus luctus, consequat turpis ac, venenatis massa. Phasellus a dolor sed nisi dapibus iaculis.</p>
           <button id="more" type="submit">Learn More<i class="icon icon-right"></i></button>
         </div>
         <article>
           <h2>Our team</h2>
           <!-- Our team page (linked together) -->
-          <div>
+          <div class="team">
+            <img src="images/john.jpg" alt="johndoe">
+            <div class="line">
             <h3>John Doe</h3>
-            <h4>Ceo and Co-owner</h4>
-            <div class="line"></div>
+            <h4>CEO and Co-owner</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fringilla porta tristique. Donec non lacus luctus, consequat turpis ac, venenatis massa. Phasellus a dolor sed nisi dapibus iaculis. In sit amet dui a felis semper suscipit. Cras vulputate ac orci ut sagittis. Nullam eu viverra lectus, non efficitur purus. Morbi vitae velit ac libero sagittis tincidunt. Nulla pretium dui nec lorem rutrum, ut mattis purus dapibus. Maecenas viverra erat lorem, quis ornare augue tempor eget. Fusce neque risus, interdum ac dui et, suscipit maximus urna. Ut porta eu tortor sed fermentum. Sed condimentum lorem sodales convallis gravida. Maecenas sit amet purus eget est tincidunt accumsan. Donec sed euismod neque. </p>
+            </div>
           </div>
-          <div>
+          <div class="team">
+            <img src="images/bob.jpg" alt="bobrite">
+            <div class="line">
             <h3>Bob Rite</h3>
             <h4>CFO and Co-owner</h4>
-            <div class="line"></div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fringilla porta tristique. Donec non lacus luctus, consequat turpis ac, venenatis massa. Phasellus a dolor sed nisi dapibus iaculis. In sit amet dui a felis semper suscipit. Cras vulputate ac orci ut sagittis. Nullam eu viverra lectus, non efficitur purus. Morbi vitae velit ac libero sagittis tincidunt. Nulla pretium dui nec lorem rutrum, ut mattis purus dapibus. Maecenas viverra erat lorem, quis ornare augue tempor eget. Fusce neque risus, interdum ac dui et, suscipit maximus urna. Ut porta eu tortor sed fermentum. Sed condimentum lorem sodales convallis gravida. Maecenas sit amet purus eget est tincidunt accumsan. Donec sed euismod neque. </p>
+            </div>
           </div>
         </article>
         <article>
           <h2>Contact Us</h2>
           <!-- Faq and information page -->
-          <div>
+          <div id="contact">
             <h3>Send us a message</h3>
             <form action="index.html" method="post">
               <label for="name">Full Name</label>
