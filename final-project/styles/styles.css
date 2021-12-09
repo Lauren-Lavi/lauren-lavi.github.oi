@@ -54,6 +54,11 @@ table {
     body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     }
+    h2{
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 5px;
+    }
     header{
         background-color: #222222;
         padding:20px;
@@ -91,6 +96,7 @@ table {
         font-size: 3rem;
         padding: 8px;
     }
+    /* will need to send bg image to the back and adjust sizing */
     #threestars{
       color:whitesmoke;
       background-color: #1d1c1c69;  
@@ -104,6 +110,13 @@ table {
         margin: 8px;
         border: none;
     }
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~About Us info~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#us{
+    background-color: #FFE6AC;
+}
+#us p{
+    margin:5px;
+}
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~MEDIA QUERY FOR FULL SCREEN~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media screen and (min-width: 480px){
 body{
