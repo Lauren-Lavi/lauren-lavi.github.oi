@@ -78,9 +78,6 @@ table {
     }
     ul{
         list-style: none;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
         align-items: center;
     }
     li{
@@ -88,9 +85,7 @@ table {
        color:goldenrod;
        margin-bottom: 10px;
     }
-    #star{
-        margin: none;
-    }
+    
     /* Style for home button */
     li .home{
         display: block;
@@ -115,8 +110,12 @@ table {
         height:100px;
         background: goldenrod;
     }
+    #banner{
+        margin:none;
+    } 
     .position{
         position:relative;
+        height: auto;
     }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Below the nav (three star media background code)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
     h1{
@@ -124,14 +123,13 @@ table {
         padding: 8px;
     }
     /* will need to send bg image to the back and adjust sizing */
-    #threestars{
-      display: block;
+     #threestars{
       color:whitesmoke;
       background-color: #1d1c1c69;  
-      padding: 3em;
-      position:absolute;
-      bottom:20px;
-      margin-top: 20%;
+    }
+    .position #threestars{
+        position: absolute;
+        top: 0;
     }
     #threestars #connect{
         color: #222222;
