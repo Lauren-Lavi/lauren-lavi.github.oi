@@ -70,11 +70,11 @@ table {
     h4{
         color:#222;
         font-weight: bold;
-        border-bottom: solid goldenrod 2px;
+        border-bottom: solid #c78c06 2px;
+        margin-bottom: 5px;
     }
     header{
-        background-color: #222;
-        padding:20px;
+        background-color: #222;;
     }
     ul{
         list-style: none;
@@ -82,15 +82,16 @@ table {
     }
     li{
        text-align: center;
-       color:goldenrod;
-       margin-bottom: 10px;
+       color:#c78c06;
+       margin-bottom: 20px;
     }
     
     /* Style for home button */
     li .home{
         display: block;
         padding: auto;
-        background: goldenrod;
+        padding-bottom: 5px;
+        background: #c78c06;
         color: #222;
         margin:none;
         text-decoration: none;
@@ -98,25 +99,36 @@ table {
     }
     #find{
         background-color: #222;
-        color:goldenrod;
-        border: solid 2px goldenrod;
+        color:#c78c06;
+        border: solid 2px #c78c06;
     }
     #search{
-        min-width:280px;
-        max-width: 479px;
+        display: flex;
+        flex-direction: row;
         align-content: center;
+        width: 92%;
+    }
+    #find{
+        display: flex;
+        align-self: auto;
     }
     .logo{
         height:100px;
-        background: goldenrod;
+        background: #c78c06;
     }
     #banner{
         margin:none;
     } 
     .position{
         position:relative;
-        height: auto;
+
     }
+     .overlay{
+        position: absolute;
+        top: 20%;
+    }
+    .pad{
+        padding: 20px;    }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Below the nav (three star media background code)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
     h1{
         font-size: 3rem;
@@ -125,16 +137,13 @@ table {
     /* will need to send bg image to the back and adjust sizing */
      #threestars{
       color:white;
-      background-color: #222;  
-    }
-    .position #threestars{
-        position: absolute;
-        top: 0;
-    }
-    #threestars #connect{
+      background-color: rgba(34, 34, 34, 0.411);  
+     }
+     /* Button styling */
+       #threestars #connect{
         color: #222222;
         font-size:1rem;
-        background-color: goldenrod;
+        background-color: #c78c06;
         padding: 10px;
         margin: 8px;
         border: none;
@@ -145,66 +154,129 @@ table {
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~About Us info~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 #us{
     background-color: #FFE6AC;
+    padding: 15px;
+    margin-bottom: 15px;
 }
 #us p{
     margin:5px;
 }
 /* ```````````~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Plans styling section~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* background and general font styling */
+#space{
+    padding: 10px;
+}
 .about{
     background-color: #FFE6AC;
     border: 5px;
     margin: 5px;
-    padding: 5px;
+    padding: 10px;
 }
 /* paragraph specifics */
 .about p{
     margin: 5px;
+}
+/* Image specific */
+.nopad{
+    padding: none;
 }
 /* button styling */
 .about button{
     font-size: 1em;
     background-color: #222222;
     margin: 5px;
-    padding: 5px;
+    padding: 20px;
     border: none;
-    color: whitesmoke
+    color: white;
 }
 /* ````````````````````````~~~~~~~~~~Our Vision~~~~~~~~~~~~~``````````````````````````````````````````````````````` */
 #vision{
-    color:whitesmoke;
+    color:white;
     padding: 5px;
     position: absolute;
+    margin:5px;
 }
+#vision h3{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#vision p{
+    margin-bottom: 5%;
+}
+
 #vision button{
-    border: solid 2px goldenrod;
-    background-color:#22222281;
-    color: whitesmoke;
+    border: solid 2px #c78c06;
+    background-color:#222;
+    color: white;
+    padding:20px;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~The team background~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#tm{
+    margin-top: 5%;
+}
 .team{
     background-color: #FFE6AC;
     margin-bottom: 5px;
     padding-bottom: 5px;
 }
-/* a line separating titles needs to be added */
+/* a line separating titles*/
 .line{
     padding: 5px;
     margin:5px;
 }
+.line p{
+    margin-top: 5px;
+}
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Contact~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 #contact{
-    display: flex;
-    flex-wrap: nowrap;
+    display: block;
+    padding:15px;
+}
+#contact form{
+    margin-bottom: 5px;
 }
 
+#name, #email, #message{
+    width:98%;
+}
+#send{
+    background-color: #222;
+        color:#c78c06;
+        padding: 5px;
+        display: block;
+        border: none;
+}
+/* `````````````````Tables````````````````` */
+table{
+    margin:5%;
+    border: solid #222222 2px;
+    display: grid;
+    grid-template-rows: repeat(1fr 1fr);
+    
+}
+tr, th, td{
+    border: solid #222222 2px; 
+}
+thead{
+    background-color: #FFE6AC;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Footer~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+footer{
+    background-color: #222222;
+    color:#c78c06;
+    padding:20px 25px 20px 20px;
+    margin-top: 10px;
+}
+footer a{
+    text-decoration-color: #c78c06;
+    color: #c78c06;
+}
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~MEDIA QUERY FOR FULL SCREEN~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media screen and (min-width: 760px){
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 header{
-    background-color: #222222;
+    background-color: #222;
     padding: 10px;
 }
 ul{
