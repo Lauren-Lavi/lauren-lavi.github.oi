@@ -120,12 +120,12 @@ table {
         margin:none;
     } 
     .position{
-        position:relative;
+        position: relative;
 
     }
      .overlay{
         position: absolute;
-        top: 20%;
+        top: 50%;
     }
     .pad{
         padding: 20px;    }
@@ -169,15 +169,15 @@ table {
     background-color: #FFE6AC;
     border: 5px;
     margin: 5px;
-    padding: 10px;
+}
+
+/* padding for text */
+.pad{
+   padding:10px; 
 }
 /* paragraph specifics */
 .about p{
     margin: 5px;
-}
-/* Image specific */
-.nopad{
-    padding: none;
 }
 /* button styling */
 .about button{
@@ -194,6 +194,7 @@ table {
     padding: 5px;
     position: absolute;
     margin:5px;
+    top: 50%
 }
 #vision h3{
     margin-top: 5%;
