@@ -139,9 +139,9 @@ table {
         position: relative;
 
     }
-     .overlay{
+     /* .overlay{
         position: absolute;
-    }
+    } */
     .pad{
         padding: 20px;
     
@@ -151,6 +151,8 @@ table {
         background-image:url("../images/main-banner.jpg");
         background-repeat: no-repeat;
         background-size: cover;
+        padding-top: 10%;
+        padding-bottom: 10%;
     }
     /* test content */
     .overlaytext{
@@ -165,8 +167,8 @@ table {
      #threestars{
       color:white;
       background-color: rgba(34, 34, 34, 0.575);  
-      margin-top:5%;
-      margin-bottom: 5%;
+      /* margin-top:5%;
+      margin-bottom: 5%; */
       padding-left: 10px;
      }
 
@@ -415,8 +417,9 @@ li .home{
     z-index: -1;
 } */ */
 /* Team CSS direction */
-.team{
-    display:flex;
-    flex-direction: row;
+#lij{
+    display:grid;
+    grid-column: repeat(2, 1fr);
 }
+
 }
