@@ -56,7 +56,6 @@ table {
     body{
     font-family:  'Open Sans', sans-serif;
     margin: 0 auto; 
-    max-width: 1200px;
     }
     h2{
         font-size: 2rem;
@@ -75,7 +74,10 @@ table {
         margin-bottom: 5px;
     }
     header{
-        background-color: #222;;
+        background-color: #222;
+    }
+    nav{
+        text-align: center;
     }
     ul{
         list-style: none;
@@ -103,14 +105,27 @@ table {
         color:#c78c06;
         border: solid 2px #c78c06;
     }
-    #search{
-        text-align: left;
+    /* search bar details */
+    #formn{
+        display:flex;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+    .searcher{
+        display:flex;
+        flex-wrap:nowrap;
         width: 90%;
+        margin-right:10%;
     }
     .container{
         display: flex;
         justify-content: flex-start;
-        flex-flow: row nowrap;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .container input{
+        width:100%;
+        margin-left:10px;
     }
     .logo{
         height:100px;
@@ -129,7 +144,12 @@ table {
     .pad{
         padding: 20px;    }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Below the nav (three star media background code)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-    h1{
+    .overlay{
+        background-image:url("../images/main-banner.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+h1{
         font-size: 3rem;
         padding: 8px;
     }
