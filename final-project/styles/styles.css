@@ -364,7 +364,7 @@ article #space h2{
 /* h2 to be separate */
 #space{
     display: grid;
-    width: 100vw;
+    max-width: 1200px;
     grid-template-columns: repeat( 6 1fr);
     grid-template-rows: repeat (2 1fr);
     grid-template-areas: "one one one two two two"
