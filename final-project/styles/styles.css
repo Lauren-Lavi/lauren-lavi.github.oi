@@ -335,7 +335,12 @@ header article{
     justify-content: space-around;
     align-items:center
 }
+/* search bar touch up */
 
+#formn input{
+    flex-grow:0;
+    width: 100px;
+}
 h1{
     font-size: 5em;
 }
@@ -497,6 +502,9 @@ li .home{
     display: flex;
     flex-direction: row-reverse;
 }
+
+/*  Table adjustments */
+
 /* -----contact us + other details--------------- */
 /* .grids{
     display:grid;
