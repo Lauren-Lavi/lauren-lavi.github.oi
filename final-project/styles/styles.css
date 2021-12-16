@@ -268,20 +268,24 @@ h1{
 /* `````````````````Tables````````````````` */
 table{
     margin:5%;
+    width:100%;
 }
 tr{
     border: solid #222222 1px; 
     display:grid;
     grid-template-columns: 2fr 1fr;
-    width: 100%;
+    width: 90%;
 }
 
 .right{
     border-right: solid #222222 1px;
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    width: 90%;
 }
 thead{
     background-color: #FFE6AC;
-}
+    
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Footer~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 footer{
     background-color: #222222;
@@ -289,6 +293,7 @@ footer{
     padding:20px 25px 20px 20px;
     margin-top: 10px;
 }
+
 footer a{
     text-decoration-color: #c78c06;
     color: #c78c06;
