@@ -166,7 +166,8 @@ table {
       color:white;
       background-color: rgba(34, 34, 34, 0.575);  
       margin-top:5%;
-      margin-bottom: 5%
+      margin-bottom: 5%;
+      padding-left: 10px;
      }
 
     div .overlay #threestars{
@@ -370,13 +371,18 @@ article #space h2{
     flex-wrap: wrap;
 }
 /* h2 to be separate */
+#space img{
+    width:100%;
+}
 #space{
     display: grid;
     max-width: 1200px;
-    grid-template-columns: repeat( 6 1fr);
+    grid-template-columns: repeat (6 1fr);
     grid-template-rows: repeat (2 1fr);
     grid-template-areas: "one one one two two two"
                          "three three four four five five";
+    justify-self: stretch;
+    align-content: stretch;
 }
 #space div:nth-child(1){
     grid-area: one;
