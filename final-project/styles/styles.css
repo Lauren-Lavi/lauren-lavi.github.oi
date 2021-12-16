@@ -156,8 +156,12 @@ h1{
     /* will need to send bg image to the back and adjust sizing */
      #threestars{
       color:white;
-      background-color: rgba(34, 34, 34, 0.411);  
+      background-color: rgb(34, 34, 34);      
      }
+     
+    div .overlay #threestars{
+     background-color: rgb(34, 34, 34);    
+    }
      /* Button styling */
        #threestars #connect{
         color: #222222;
@@ -285,7 +289,7 @@ tr{
 }
 thead{
     background-color: #FFE6AC;
-    
+}
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Footer~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 footer{
     background-color: #222222;
