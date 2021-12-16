@@ -56,6 +56,7 @@ table {
     body{
     font-family:  'Open Sans', sans-serif;
     margin: 0 auto; 
+    max-width: 1200px;
     }
     h2{
         font-size: 2rem;
@@ -103,14 +104,13 @@ table {
         border: solid 2px #c78c06;
     }
     #search{
-        display: flex;
-        flex-direction: row;
-        align-content: center;
-        width: 92%;
+        text-align: left;
+        width: 90%;
     }
-    #find{
+    .container{
         display: flex;
-        align-self: auto;
+        justify-content: flex-start;
+        flex-flow: row nowrap;
     }
     .logo{
         height:100px;
@@ -125,7 +125,6 @@ table {
     }
      .overlay{
         position: absolute;
-        top: 50%;
     }
     .pad{
         padding: 20px;    }
@@ -249,13 +248,16 @@ table {
 /* `````````````````Tables````````````````` */
 table{
     margin:5%;
-    border: solid #222222 2px;
-    display: grid;
-    grid-template-rows: repeat(1fr 1fr);
-    
 }
-tr, th, td{
-    border: solid #222222 2px; 
+tr{
+    border: solid #222222 1px; 
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    width: 100%;
+}
+
+.right{
+    border-right: solid #222222 1px;
 }
 thead{
     background-color: #FFE6AC;
@@ -274,7 +276,7 @@ footer a{
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~MEDIA QUERY FOR FULL SCREEN~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media screen and (min-width: 760px){
 body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 1200px;
 }
 header{
     background-color: #222;
@@ -288,5 +290,16 @@ ul{
 }
 li{
     margin:5px;
+    padding: 5px;
  }
+.logo{
+    background: none;
+}
+li .home{
+    padding:20px 25px 20px 25px;
+}
+/* Styling for our services */
+#space{
+    display: grid;
+}
 }

@@ -29,19 +29,18 @@
               <li>Contact</li>
           </ul>
          <!-- Search bar for the header, may adjust as needed -->
+        <div class="container">
           <form action="index.html" method="post">
             <label for="search"></label>
               <input id="search" type="text" name="fullname" placeholder="Search">
               <button id="find" type="submit"><i class="icon icon-zoom"></i></button>
           </form>
+        </div>
         </nav>
         </article>
         <article>
            <!-- Main page content -->
-          <div class="position">
-            <div>
-          <img id="banner" src="images/main-banner.jpg" alt="banner" width="100%" >
-         </div>
+          <div class="position" width="100%">
           <div id="threestars" class="overlay">
           <h1>Welcome to Three Star Media</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fringilla porta tristique. Donec non lacus luctus, consequat turpis ac, venenatis massa. Phasellus a dolor sed nisi dapibus iaculis. In sit amet dui a felis semper suscipit. Cras vulputate ac orci ut sagittis. Nullam eu viverra lectus, non efficitur purus. Morbi vitae velit ac libero sagittis tincidunt. Nulla pretium dui nec lorem rutrum, ut mattis purus dapibus.</p>
@@ -50,7 +49,9 @@
         </div>
           <!-- Similar button styling to 'Home' -->
         </article>
-        
+         <div>
+          <img id="banner" src="images/main-banner.jpg" alt="banner" width="100%" >
+         </div>
         </header>
         <article id="us">
         <div>
@@ -124,7 +125,7 @@
             <div class="line">
             <h3>John Doe</h3>
             <h4>CEO and Co-owner</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fringilla porta tristique. Donec non lacus luctus, consequat turpis ac, venenatis massa. Phasellus a dolor sed nisi dapibus iaculis. In sit amet dui a felis semper suscipit. Cras vulputate ac orci ut sagittis. Nullam eu viverra lectus, non efficitur purus. Morbi vitae velit ac libero sagittis tincidunt. Nulla pretium dui nec lorem rutrum, ut mattis purus dapibus. Maecenas viverra erat lorem, quis ornare augue tempor eget. Fusce neque risus, interdum ac dui et, suscipit maximus urna. Ut porta eu tortor sed fermentum. Sed condimentum lorem sodales convallis gravida. Maecenas sit amet purus eget est tincidunt accumsan. Donec sed euismod neque. </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fringilla porta tristique. Donec non lacus luctus, consequat turpis ac, venenatis massa. Phasellus a dolor sed nisi dapibus iaculis. In sit amet dui a felis semper suscipit.</p>
             </div>
           </div>
           <div class="team">
@@ -132,7 +133,7 @@
             <div class="line">
             <h3>Bob Rite</h3>
             <h4>CFO and Co-owner</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fringilla porta tristique. Donec non lacus luctus, consequat turpis ac, venenatis massa. Phasellus a dolor sed nisi dapibus iaculis. In sit amet dui a felis semper suscipit. Cras vulputate ac orci ut sagittis. Nullam eu viverra lectus, non efficitur purus. Morbi vitae velit ac libero sagittis tincidunt. Nulla pretium dui nec lorem rutrum, ut mattis purus dapibus. Maecenas viverra erat lorem, quis ornare augue tempor eget. Fusce neque risus, interdum ac dui et, suscipit maximus urna. Ut porta eu tortor sed fermentum. Sed condimentum lorem sodales convallis gravida. Maecenas sit amet purus eget est tincidunt accumsan. Donec sed euismod neque. </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fringilla porta tristique. Donec non lacus luctus, consequat turpis ac, venenatis massa. Phasellus a dolor sed nisi dapibus iaculis. In sit amet dui a felis semper suscipit.</p>
             </div>
           </div>
         </article>
@@ -162,18 +163,18 @@
             <!-- Style for the table -->
             <thead>
               <tr>
-                <th>Days</th>
+                <th class="right">Days</th>
                 <th>Hours</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Monday-Friday</td>
-                <td>9 AM - 6 PM</td>
+                <td class="right">Monday-Friday</td>
+                <td class="left">9 AM - 6 PM</td>
               </tr>
               <tr>
-                <th>Saturday - Sunday</th>
-                <th>Closed</th>
+                <th class="right">Saturday - Sunday</th>
+                <th class="left">Closed</th>
               </tr>
             </tbody>
           </table>
