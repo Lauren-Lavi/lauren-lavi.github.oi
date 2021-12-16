@@ -366,19 +366,17 @@ li .home{
     z-index: -1;
 } */
 /*---------------------------------------- Styling for our services */
-article #space h2{
+/* article #space h2{
     display:flex;
     flex-wrap: wrap;
-}
+} */
 /* h2 to be separate */
-#space img{
-    width:100%;
-}
+
 #space{
     display: grid;
     max-width: 1200px;
-    grid-template-columns: repeat (6 1fr);
-    grid-template-rows: repeat (2 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-template-areas: "one one one two two two"
                          "three three four four five five";
     justify-self: stretch;
