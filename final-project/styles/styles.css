@@ -329,6 +329,7 @@ header article{
     display:flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items:center
 }
 /*  search bar details */
 
@@ -337,18 +338,18 @@ header article{
     align-items:center;
 }
 /* text in overlay */
-#threestar{
+/* #threestar{
     padding: 800px;
-}
+} */
 
 #formn{
     flex-grow: 0;
     padding: 0;
     margin: 0;
 }
-.searcher{
-    display: flex;
-}
+/* .searcher{
+    display: flex; */
+
 ul{
     display:flex;
     flex-wrap: wrap;
@@ -470,7 +471,7 @@ li .home{
     grid-row: 1;
 } */
 .grim{
-    /* display:grid; */
+    display:grid;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row: 1;
@@ -483,7 +484,7 @@ li .home{
 .contactgrid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
 
 }
 }
