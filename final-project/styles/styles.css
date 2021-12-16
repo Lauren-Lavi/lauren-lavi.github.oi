@@ -331,15 +331,21 @@ header article{
     justify-content: space-around;
     align-items:center
 }
+
+h1{
+    font-size: 5em;
+}
 /*  search bar details */
 
 .overlay{
     height:600px;
     align-items:center;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 /* text in overlay */
 /* #threestar{
-    padding: 800px;
+    padding: 80%;
 } */
 
 #formn{
@@ -347,9 +353,10 @@ header article{
     padding: 0;
     margin: 0;
 }
-/* .searcher{
-    display: flex; */
 
+#threestars #connect{
+    padding: 20px;
+}
 ul{
     display:flex;
     flex-wrap: wrap;
@@ -366,6 +373,19 @@ li{
 li .home{
     padding:20px 25px 20px 25px;
 }
+/* ----------Us-------------------------- */
+#us img{
+    width:60%;
+    /* display: flex;
+    flex-wrap: nowrap; */
+}
+
+#us .setflex{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+}
 
 /* Display: vision */
 
@@ -373,11 +393,12 @@ li .home{
         background-image:url("../images/vision.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        position: relative;
+        position: inherit;
+        background-position: center center;
         top:0;
         /* padding-left: 20%;
         padding-right: 20%; */
-    height: 400px;;
+    height: auto;
     left:50%;
     right:50%;
     margin-left: -50vw;
@@ -385,6 +406,11 @@ li .home{
     width:100vw;
     z-index: -1;
 }
+#vision div{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 #vis{
     display: none;
 }
@@ -463,7 +489,7 @@ li .home{
     display: flex;
     flex-direction: row-reverse;
 }
-/* -----contact us--------------- */
+/* -----contact us + other details--------------- */
 /* .grids{
     display:grid;
     grid-column-start: 1;
@@ -479,12 +505,9 @@ li .home{
 .grits{
     grid-column-start: 1;
     grid-column-end: 3;
-    grid-row: 2;
 }
-.contactgrid{
+.gridd{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* grid-template-rows: repeat(2, 1fr); */
-
 }
 }
