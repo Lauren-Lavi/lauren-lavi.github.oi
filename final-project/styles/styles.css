@@ -242,7 +242,7 @@ table {
 
 #vision button{
     border: solid 2px #c78c06;
-    background-color:#222;
+    background-color:rgba(34, 34, 34, 0.493);
     color: white;
     padding:20px;
 }
@@ -320,8 +320,17 @@ footer a{
 body{
     max-width: 1200px;
 }
+h2, h3{
+    font-weight: 750;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2rem;
+}
 p{
-    font-size: .8rem;
+    font-size: .8em;
     line-height: 1.5em;
 }
 header{
@@ -368,7 +377,7 @@ h1{
 }
 ul{
     display:flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: row;
     justify-content: space-around;
 }
@@ -418,6 +427,10 @@ li .home{
     margin-right: -50vw;
     width:100vw;
     z-index: -1;
+}
+
+#vision button{
+    padding: 30px;
 }
 #vision div{
     max-width: 1200px;
@@ -504,6 +517,12 @@ li .home{
 }
 
 /*  Table adjustments */
+.right{
+    padding: 10px;
+}
+th td{
+    padding: 10px;
+}
 
 /* -----contact us + other details--------------- */
 /* .grids{
@@ -521,9 +540,17 @@ li .home{
 .grits{
     grid-column-start: 1;
     grid-column-end: 3;
+    text-align: left;
 }
 .gridd{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+footer{
+    padding-left:5%;
+    padding-right:5%;
+
 }
 }
