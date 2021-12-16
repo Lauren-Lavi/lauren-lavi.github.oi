@@ -109,14 +109,15 @@ table {
     #formn{
         display:flex;
         flex-wrap: nowrap;
-        width: 100%;
-    }
-    .searcher{
-        display:flex;
-        flex-wrap:nowrap;
-        width: 90%;
-        margin-right:10%;
-    }
+        
+      }
+      #formn input{
+       flex-grow:1;   
+      }
+    /* .searcher{
+        /* width: 90%; */
+        /* margin-right:10%;
+    } */ 
     .container{
         display: flex;
         justify-content: flex-start;
@@ -151,14 +152,21 @@ table {
         background-repeat: no-repeat;
         background-size: cover;
     }
-h1{
+    /* test content */
+    .overlaytext{
+        color:white;
+        background-color: #222222;
+    }
+    h1{
         font-size: 3rem;
         padding: 8px;
     }
     /* will need to send bg image to the back and adjust sizing */
      #threestars{
       color:white;
-      background-color: rgb(34, 34, 34);      
+      background-color: rgba(34, 34, 34, 0.575);  
+      margin-top:5%;
+      margin-bottom: 5%
      }
 
     div .overlay #threestars{
@@ -274,13 +282,13 @@ h1{
 /* `````````````````Tables````````````````` */
 table{
     margin:5%;
-    width:100%;
+    width:90%;
 }
 tr{
     border: solid #222222 1px; 
-    display:grid;
+    /* display:grid;
     grid-template-columns: 2fr 1fr;
-    width: 90%;
+    width: 90%; */
 }
 tbody th{
     text-align: start;
