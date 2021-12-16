@@ -142,7 +142,9 @@ table {
         position: absolute;
     }
     .pad{
-        padding: 20px;    }
+        padding: 20px;
+    
+    }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Below the nav (three star media background code)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
     .overlay{
         background-image:url("../images/main-banner.jpg");
@@ -158,7 +160,7 @@ h1{
       color:white;
       background-color: rgb(34, 34, 34);      
      }
-     
+
     div .overlay #threestars{
      background-color: rgb(34, 34, 34);    
     }
@@ -280,14 +282,14 @@ tr{
     grid-template-columns: 2fr 1fr;
     width: 90%;
 }
-
+tbody th{
+    text-align: start;
+}
 .right{
     border-right: solid #222222 1px;
-    display:grid;
-    grid-template-columns: 2fr 1fr;
-    width: 90%;
 }
 thead{
+    text-align: center;
     background-color: #FFE6AC;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Footer~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -326,6 +328,20 @@ li{
 }
 li .home{
     padding:20px 25px 20px 25px;
+}
+.overlay:after{
+    content:'';
+    background-image: url("../images/main-banner.jpg");
+    position: absolute;
+    top:0;
+    height:100%;
+    
+    left:50%;
+    right:50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    width:100vw;
+    z-index: -1;
 }
 /* Styling for our services */
 #space{
