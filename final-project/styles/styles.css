@@ -320,6 +320,10 @@ footer a{
 body{
     max-width: 1200px;
 }
+p{
+    font-size: .8rem;
+    line-height: 1.5em;
+}
 header{
     background: none;
 }
@@ -385,6 +389,10 @@ li .home{
     flex-wrap: nowrap;
     flex-direction: row;
 
+}
+#us{
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 /* Display: vision */
