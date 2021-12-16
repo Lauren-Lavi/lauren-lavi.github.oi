@@ -311,11 +311,17 @@ body{
 }
 header{
     background: none;
-    
 }
 header article{
     background-color: #222222;
     padding: 10px;
+    /* display:flex;
+    flex-direction: row;
+    flex-shrink:0; */
+
+}
+.searcher{
+    display: flex;
 }
 ul{
     display:flex;
